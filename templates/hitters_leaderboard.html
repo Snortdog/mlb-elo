@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hitters Leaderboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<form action="/search_player" method="GET">
+    <label for="search_name">Search for a player:</label>
+    <input type="text" id="search_name" name="search_name" required>
+    <input type="submit" value="Search">
+</form>
+<body>
+    <h1>Hitters Leaderboard</h1>
+    <div>
+        {{ hitters_table|safe }}
+    </div>
+    <p>
+        <a href="/">Back to the homepage</a>
+    </p>
+</body>
+</html>

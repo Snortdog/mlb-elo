@@ -1,0 +1,6 @@
+beautifulsoup4==4.12.2
+Flask==2.3.2
+pandas==2.0.1
+pybaseball==2.2.5
+Requests==2.31.0
+selenium==4.9.1
